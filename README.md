@@ -1,2 +1,2 @@
-# mi-porfolio
-Este es mi portafolio hecho en HTML Y CSS
+# mi-portfolio
+Este es mi portfolio hecho en HTML Y CSS
