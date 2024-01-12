@@ -1,0 +1,41 @@
+body {
+    background-color: #343a40; /* Cambia este color de fondo según tus preferencias */
+    color: black; /* Color del texto en la página */
+}
+
+header {
+    position: relative;
+    background-color: #343a40; /* Cambia este color de fondo según tus preferencias */
+    color: white; /* Cambia el color del texto según tus preferencias */
+}
+
+.profile-image {
+    width: 150px; /* ajusta el tamaño según sea necesario */
+    height: 150px; /* ajusta el tamaño según sea necesario */
+    border-radius: 50%;
+    position: absolute;
+    left: 20px; /* ajusta la posición según sea necesario */
+    top: 20px; /* ajusta la posición según sea necesario */
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Añade transformación en la transición */
+}
+
+section:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Aumenta la sombra de forma más suave */
+    transform: scale(1.02); /* Aumenta ligeramente el tamaño al pasar el ratón */
+}
+
+/* Añade estilos para ajustar el tamaño de los iconos */
+#enlaces img {
+    max-width: 24px; /* Ajusta el tamaño según sea necesario */
+    max-height: 24px; /* Ajusta el tamaño según sea necesario */
+            vertical-align: middle; /* Alinea el icono verticalmente en línea con el texto */
+    margin-right: 8px; /* Agrega espacio a la derecha del icono */
+}
